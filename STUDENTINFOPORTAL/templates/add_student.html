@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Add Student</h1>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="studentname">Student Name</label>
+            <input class="form-control" type="text" name="studentname" id="studentname" required>
+        </div>
+        <div class="form-group">
+            <label for="id">Student ID</label>
+            <input class="form-control" type="text" name="id" id="id" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input class="form-control" type="text" name="address" id="address" required>
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <input class="form-control" type="text" name="gender" id="gender" required>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input class="form-control" type="date" name="dob" id="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="chem101">CHEM101 Score</label>
+            <input class="form-control" type="number" name="chem101" id="chem101" required>
+        </div>
+        <div class="form-group">
+            <label for="math101">MATH101 Score</label>
+            <input class="form-control" type="number" name="math101" id="math101" required>
+        </div>
+        <div class="form-group">
+            <label for="phys101">PHYS101 Score</label>
+            <input class="form-control" type="number" name="phys101" id="phys101" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+{% endblock %}

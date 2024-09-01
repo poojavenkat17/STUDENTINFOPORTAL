@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Search Students</h1>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="studentname">Enter the Student Name</label>
+            <input class="form-control" type="text" name="studentname" id="studentname" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+{% endblock %}

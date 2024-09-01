@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Search Student Scores</h1>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="studentid">Enter the Student ID</label>
+            <input class="form-control" type="text" name="studentid" id="studentid" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+{% endblock %}

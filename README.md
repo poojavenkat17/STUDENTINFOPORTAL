@@ -35,8 +35,9 @@ Main Components:
    - score_result.html
    - add_student.html
    - course_info.html
-<img width="949" alt="searchst" src="https://github.com/user-attachments/assets/23a557df-3099-4970-bd1c-143a8d9d7f93">
-<img width="959" alt="scorest" src="https://github.com/user-attachments/assets/54e48473-a4f4-4cdd-a277-d07bbd48e4bd">
-<img width="864" alt="addstud" src="https://github.com/user-attachments/assets/d4609b9a-160b-45b1-be83-4b9bfd9dc291">
+<img width="917" alt="add" src="https://github.com/user-attachments/assets/96278962-05c2-493f-bee2-4d10f311f0be">
+<img width="959" alt="searstud" src="https://github.com/user-attachments/assets/4f2a55d6-6ca9-463b-94ce-6fc922a1ee47">
+<img width="958" alt="sesc" src="https://github.com/user-attachments/assets/c77dd732-899e-439a-b200-976595b7b248">
+
 
 This web application provides a user-friendly interface for managing student information and academic performance, with Flask serving as the web framework to handle requests and interact with the PostgreSQL database.
